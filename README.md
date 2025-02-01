@@ -1,11 +1,11 @@
 [![progress-banner](https://backend.codecrafters.io/progress/shell/b9be8365-6b66-4bd6-b277-ed4641221e08)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
 
-This is a starting point for Python solutions to the
+This is my Take on teh Build your shell Challenge by CodeCrafter
 ["Build Your Own Shell" Challenge](https://app.codecrafters.io/courses/shell/overview).
 
-In this challenge, you'll build your own POSIX compliant shell that's capable of
+In this challenge, i started on building my own POSIX compliant shell that's capable of
 interpreting shell commands, running external programs and builtin commands like
-cd, pwd, echo and more. Along the way, you'll learn about shell command parsing,
+cd, pwd, echo and more. Along the way, i look onto learning about shell command parsing,
 REPLs, builtin commands, and more.
 
 **Note**: If you're viewing this repo on GitHub, head over to
