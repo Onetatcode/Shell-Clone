@@ -1,7 +1,8 @@
 [![progress-banner](https://backend.codecrafters.io/progress/shell/b9be8365-6b66-4bd6-b277-ed4641221e08)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
 
 This is my Take on the Build your shell Challenge by CodeCrafter
-["Build Your Own Shell" Challenge](https://app.codecrafters.io/courses/shell/overview).
+["Build Your Own Shell"](https://app.codecrafters.io/courses/shell/overview).
+Challenge
 
 In this challenge, i started on building my own POSIX compliant shell that's capable of
 interpreting shell commands, running external programs and builtin commands like
