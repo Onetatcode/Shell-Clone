@@ -50,6 +50,21 @@ def handle_cd(args):
             print(f"cd: {target_dir}: No such file or directory", file=sys.stderr)
         except NotADirectoryError:
             print(f"cd: {target_dir}: Not a directory", file=sys.stderr)
+            
+            def handle_cd(args):
+            if not args:
+                home_dir = os.path.expanduser("~")
+                os.chdir(home_dir)
+            else:
+                target_dir = args[0]
+                if target_dir == "~":
+                    target_dir = os.path.expanduser("~")
+                    try:
+                        os.chdir(target_dir)
+                    except FileNotFoundError:
+                        print(f"cd: {target_dir}: No such File or directory",file=sys.stderr)
+                    except NotADirectoryError:
+                        print(f"cd:{target_dir}: Not a directory", file=sys.stderr)
 
 # Function to locate executables in PATH
 def locate_executable(command):
